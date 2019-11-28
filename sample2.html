@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        
+       
+    </style>
+    <body>
+            <head>
+                <h1 id="title">Survey</h1>
+            </head>
+            <h1 id="description">this is a form</h1>
+    <main id="main">
+        <form id="survey-form">
+            <dropdown id="dropdown"></dropdown>
+            <label id="name-label">name:
+                <input id="name" type="name" min="2" max="99" required placeholder="name"></form>
+            </label>
+            <label id="name-label">email:
+                <input id="email" placeholder="email" type="email" min="9" max="99"></form>
+            </label></br>
+            <label id="name-label">number:
+                <input id="number"type="text" pattern="[0-9]{99}" placeholder="number" required></form>
+            </label></br>
+            <p>favorite car:</p>
+            <select id="dropdown" placeholder="favorite car">
+                <option value="volvo">Volvo</option>
+                <option value="nisan">Nisan</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select></br>
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other<br>
+                <input type="checkbox" name="color1" value="Blue"> blue 
+                <input type="checkbox" name="color2" value="Green"> green
+                <input type="checkbox" name="color3" value="Red"> red <br> 
+                <input type="textarea" name="sugestion" id="textarea">
+                <button type="submit" id="submit">submit</button>
+        </form>
+    </main>
+    </body>
+</html>
